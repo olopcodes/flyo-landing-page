@@ -1,0 +1,43 @@
+.menu-open,
+.menu-close {
+    display: none;
+}
+
+#nav {
+    /* border: 3px solid red; */
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 2rem 0;
+    background-color: #fff;
+}
+#nav .nav-container {
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#nav .nav-container .logo {
+    width: 12rem;
+}
+
+#nav .nav-container .nav-list {
+    display: flex;
+}
+
+#nav .nav-container .nav-list li {
+    padding: .8rem 1rem;
+}
+
+#nav .nav-container .nav-list li a {
+    display: inline-block;
+    font-size: 1.3rem;
+    transition: color .3s ease;
+}
+
+#nav .nav-container .nav-list li a:hover {
+    color: var(--moderate-cyan);
+}

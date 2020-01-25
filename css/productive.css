@@ -1,0 +1,91 @@
+#productive {
+    padding: 0 0 10rem;
+    background-color: var(--gray-blue);
+}
+
+#productive .container {
+    display: flex;
+}
+
+#productive .left-side {
+    flex: 1;
+}
+
+#productive .left-side h1{
+    margin-bottom: 2.5rem;
+}
+
+#productive .left-side p {
+    margin-bottom: 1rem;
+}
+
+#productive .left-link {
+    font-size: 1.3rem;
+    color: var(--moderate-cyan);
+    margin-top: 1.5rem;
+    display: inline-block;
+    border-bottom: 1px solid var(--moderate-cyan);
+}
+
+#productive .left-link .arrow-img {
+    width: 2rem;
+    position: relative;
+    top: 5px;
+    transition: .3s ease;
+}
+
+#productive .left-link:hover .arrow-img{
+    margin-left: 5px;
+}
+
+#productive .left-review {
+    margin-top: 5rem;
+    background-color: #fff;
+    width: 50%;
+    padding: 2.5rem;
+    border-radius: 1.5rem;  
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.1);
+}
+
+#productive .left-review .quote-img {
+    width: 2rem;
+}
+
+#productive .left-review p {
+    font-size: 1.2rem;
+}
+
+#productive .left-review .review-img-box {
+    display: flex;
+    align-items: center;
+     
+}
+
+#productive .left-review .review-img-box .review-img {
+    width: 10rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+}
+
+#productive .left-review .review-img-box h4 {
+    font-size: 1.8rem;
+}
+
+
+#productive .right-side {
+    flex: 1;
+    background-image: url(../images/illustration-2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* 
+
+                    <div class="right-side-img">
+                    <img src="./images/illustration-2.svg" alt="">
+                </div> */
