@@ -1,0 +1,74 @@
+#footer {
+    color: #fff;
+    background-color: var(--dark-blue);
+    padding-top: 5rem;
+}
+
+#footer .info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#footer .footer-logo{
+    width: 12rem;
+    margin-bottom: 2rem;
+}
+
+#footer .company .footer-phone,
+#footer .company .footer-mail {
+    display: flex;
+}
+#footer .company .footer-phone img,
+#footer .company .footer-mail img{
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    width: 2rem;
+}
+
+#footer .footer-links li a {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+#footer .footer-links li a:hover,
+#footer .social li a:hover {
+    color: var(--light-gray);
+    
+}
+
+#footer .social {
+    display: flex;
+}
+
+#footer .social li{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+#footer .social li:not(:last-of-type) {
+    margin-right: 1.6rem;
+}
+
+#footer .social li a {
+    color: #fff;
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: .5rem;
+   
+}
+
+#footer .copyright {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#footer .copyright {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+#footer .copyright a {
+    color: #fff;
+
+}
