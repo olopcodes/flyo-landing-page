@@ -1,0 +1,134 @@
+h1 {font-size: 3rem;}
+
+/* nav styles */
+#nav {
+    /* hides the nav menu */
+    overflow: hidden;
+}
+
+#nav.open {
+    /* shows the menu */
+    overflow: visible;
+}
+
+.nav-container .menu-open,
+.nav-container .menu-close {  
+    display: inline-block;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-container .menu{
+    position: absolute;
+    top: 3px;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+    height: 200px;
+    background-color: white;
+    transition: .4s ease;
+    /* moves the menu away */
+    transform: translateX(100%);
+}
+
+.nav-container .menu.show {
+    /* shows the menu again */
+    transform: translateX(0);
+}
+
+.nav-container .menu .menu-close {
+    width: 100%;
+    position: relative;
+    height: 7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 10;
+}
+
+.nav-container .menu .menu-close i {
+    margin-right: 2rem;
+}
+
+#nav .nav-container .nav-list {
+    display: block;
+    transition: .4s ease;
+    background-color: #fff;
+}
+
+#nav .nav-container .nav-list li a{
+    display: block;
+}
+
+
+/* show case */
+#showcase .showcase-container {
+    flex-direction: column;   
+}
+
+#showcase .showcase-container .showcase-text {
+    order: 2;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+#showcase .showcase-container .showcase-text form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#showcase .showcase-container .showcase-text input, 
+#showcase .showcase-container .showcase-text form button{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#showcase .showcase-container .showcase-img{
+    order: 1;
+}
+
+#showcase .curve {
+    background-image: url(../images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+
+/* productive */
+#productive .container {
+    flex-direction: column;
+}
+
+#productive .container .left-side{
+    order: 2;
+    margin-top: 2rem;
+}
+
+#productive .container .left-side h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#productive .left-side .left-review{
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+#productive .left-review .review-img-box .review-img {
+    width: 8rem;
+}
+
+#productive .container .right-side{
+    order: 1;
+}
+
+
+
