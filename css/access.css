@@ -9,7 +9,7 @@
 }
 
 #access .access-text {
-    flex: 1;
+    width: 60%;
 }
 
 #access .access-text h2 {
@@ -17,23 +17,29 @@
     margin-bottom: 2.5rem;
 }
 
+#access .access-text p {
+    padding-right: 5rem;
+}
+
 #access .access-input {
-    flex: 1;    
+    width: 40%;    
 }
 
 #access .access-input form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
 }
 
 #access .access-input form input{
-    width: 60%;
+    width: 75%;
     padding: 1rem;
     margin-bottom: 1.5rem;
+    align-self: flex-start;
+
 }
 
 #access .access-input form button{
-    position: relative;
-    left: -119px;
+    align-self: flex-start;
+    width: 45%;
 }
